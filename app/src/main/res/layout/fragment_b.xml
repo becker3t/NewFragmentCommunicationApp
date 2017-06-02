@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#cdcdcd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.newfragmentcommunication.FragmentA">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Fragment B" />
+
+    <Button
+        android:id="@+id/fragmentB_HelloBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Hello" />
+
+    <Button
+        android:id="@+id/fragmentB_GoodbyeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Goodbye" />
+
+    <TextView
+        android:id="@+id/resultTv_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No message received"/>
+
+</LinearLayout>
